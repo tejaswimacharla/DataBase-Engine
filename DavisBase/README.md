@@ -1,21 +1,19 @@
-# DataBase Engine
- A rudimentary database engine that is loosely based on a hybrid between MySQL and SQLite
- 
+# Davisbase CS 6360 Project - 2. 
 The goal of this project is to implement a (very) rudimentary database engine that is loosely based on a hybrid between MySQL and SQLite, which I call DavisBase. Your implementation should operate
 entirely from the command line and API calls (no GUI).
 
 DavisBase supports only one database and one user which are used by default. User can create multiple tables in the database. Supported commands are as follows.
 All the commands are case insensitive and must end with ;. 
 DDL
-‚Ä¢ SHOW TABLES ‚Äì Displays a list of all tables in DavisBase.
-‚Ä¢ CREATE TABLE ‚Äì Creates a new table schema, i.e. a new empty table.
-‚Ä¢ DROP TABLE ‚Äì Remove a table schema, and all of its contained data.
+ï SHOW TABLES ñ Displays a list of all tables in DavisBase.
+ï CREATE TABLE ñ Creates a new table schema, i.e. a new empty table.
+ï DROP TABLE ñ Remove a table schema, and all of its contained data.
 DML
-‚Ä¢ INSERT INTO TABLE ‚Äì Inserts a single record into a table.
+ï INSERT INTO TABLE ñ Inserts a single record into a table.
 VDL
-‚Ä¢ ‚ÄúSELECT-FROM-WHERE‚Äù -style query.
-‚Ä¢ EXIT ‚Äì Cleanly exits the program and saves all table information in non-volatile files.
-‚Ä¢ HELP - Show this help information.
+ï ìSELECT-FROM-WHEREî -style query.
+ï EXIT ñ Cleanly exits the program and saves all table information in non-volatile files.
+ï HELP - Show this help information.
 
 For demonstration, 
 a) Using Eclipse
